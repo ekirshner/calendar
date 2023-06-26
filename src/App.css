@@ -1,0 +1,61 @@
+#calendar-wrapper {
+  margin: 50px;
+  width: 364px;
+}
+
+#erica-header {
+  padding: 0 0 35px;
+  text-align: center;
+  border-bottom: 1px solid lightgrey;
+}
+
+#calendar-header {
+  height: 30px; 
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#calendar-weekday-header {
+  height: 20px;
+  padding: 12px 0;
+  display: flex;
+  text-align: center;
+  background-color: #f2f3f4;
+  margin: 5px 0;
+}
+
+#calendar-days-wrapper {
+  display: flex; 
+  flex-wrap: wrap;
+}
+
+#today-button {
+  padding: 10px; 
+  margin: 15px 0; 
+  background-color: #f2f3f4;
+  width: 52px;
+  height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#date, #date-selected {
+  cursor: pointer; 
+  width: 52px; 
+  height: 50px; 
+  
+}
+
+#date-selected {
+  background-color: lightBlue;
+  border-radius: 100px; 
+}
+
+#empty-date {
+  width: 52px; 
+  height: 50px;
+}
