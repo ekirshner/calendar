@@ -2,8 +2,8 @@ import { Calendar } from './components/Calendar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div>
+      <header>
         <Calendar />
       </header>
     </div>
